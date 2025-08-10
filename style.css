@@ -1,0 +1,89 @@
+@font-face {
+    font-family: inter;
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face {
+    font-family: inter-bold;
+    src: url(./assets/fonts/static/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: inter-regular;
+    src: url(./assets/fonts/static/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: inter-semiB;
+    src: url(./assets/fonts/static/Inter-SemiBold.ttf);
+}
+*{
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    font-family: inter;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 8%);
+    height: 100vh;
+}
+.mainbox{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: hsl(0, 0%, 12%);
+    width: 250px;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+}
+.mainbox div{
+    margin-top: 10px;
+}
+.profpic img{
+    border-radius: 50%;
+    width: 40%;
+}
+
+.links div{
+    background-color: hsl(0, 0%, 20%);
+    height: 40px;
+    border-radius: 5px;
+    align-content: center;
+}
+a{
+    color: white;
+}
+a p{
+        font-family: inter-semiB;
+        font-size: smaller;
+}
+a div:hover{
+    background-color: hsl(75, 94%, 57%);
+    transition: 0.5s;
+    color: hsl(0, 0%, 12%);
+}
+
+.info h2{
+    color: white;
+}
+.info h5{
+    color: hsl(75, 94%, 57%);
+    margin-top: 10px;
+}
+.bio p{
+    color: white;
+    font-size:small;
+    margin: 10px 0;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    margin: 10px;
+    color: white;
+}
+footer a{
+    color: hsl(75, 94%, 57%);
+}
