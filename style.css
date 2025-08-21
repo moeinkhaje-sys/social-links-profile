@@ -86,4 +86,6 @@ footer{
 }
 footer a{
     color: hsl(75, 94%, 57%);
+    text-decoration: underline;
+
 }
